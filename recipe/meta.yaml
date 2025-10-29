@@ -1,5 +1,5 @@
 {% set name = "pytransit" %}
-{% set version = "2.6.15" %}
+{% set version = "2.6.16" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytransit-{{ version }}.tar.gz
-  sha256: 4b057e4b4bad05fedb936f374cbfe0430bcb8afd155739d3f6931983f143e9a7
+  sha256: aca60be3de9c9723efef1f6f1a30c3eabb7a0a20341e7fe1094650de2e21411a
 
 build:
   noarch: python
