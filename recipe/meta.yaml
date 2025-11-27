@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -30,7 +30,7 @@ requirements:
     - pytables
     - uncertainties
     - numba
-    - astropy
+    - astropy-base
     - matplotlib-base
     - tqdm
     - semantic_version
