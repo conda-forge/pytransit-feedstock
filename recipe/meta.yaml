@@ -27,7 +27,7 @@ requirements:
     - scipy
     - pandas
     - xarray
-    - tables
+    - pytables
     - uncertainties
     - numba
     - astropy-base
