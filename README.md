@@ -189,4 +189,5 @@ Feedstock Maintainers
 =====================
 
 * [@hpparvi](https://github.com/hpparvi/)
+* [@mwcraig](https://github.com/mwcraig/)
 
