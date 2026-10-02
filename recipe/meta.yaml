@@ -41,7 +41,7 @@ requirements:
     - pyopencl
     - corner
     - celerite
-    - meepmeep >=0.8.0
+    - meepmeep >=1.2.0
 
 test:
   imports:
