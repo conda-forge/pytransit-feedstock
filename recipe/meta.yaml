@@ -1,5 +1,5 @@
 {% set name = "pytransit" %}
-{% set version = "2.10.0" %}
+{% set version = "2.10.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pytransit-{{ version }}.tar.gz
-  sha256: d911926a27ca9c0a6a4a286a56162cbef6fadfc75eab1761b5a0910054f4cc03
+  sha256: 18bcdab9f93d58c7bb32f732f66d36d4c63bf5a991e0b30c5aaefbc6a4196e38
 
 build:
   noarch: python
