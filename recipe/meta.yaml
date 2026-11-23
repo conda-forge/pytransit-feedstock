@@ -18,8 +18,10 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools
+    - setuptools >=64
+    - setuptools-scm >=8
     - pip
+    
   run:
     - python >={{ python_min }}
     - arviz
@@ -32,6 +34,7 @@ requirements:
     - numba
     - astropy-base
     - matplotlib-base
+    - mako
     - tqdm
     - semantic_version
     - setuptools
@@ -41,6 +44,7 @@ requirements:
     - pyopencl
     - corner
     - celerite
+    - pyrr
     - meepmeep >=1.2.1
 
 test:
