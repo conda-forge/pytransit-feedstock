@@ -1,5 +1,5 @@
 {% set name = "pytransit" %}
-{% set version = "2.12.0" %}
+{% set version = "2.13.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pytransit-{{ version }}.tar.gz
-  sha256: 93236bedb5eaa601c07b73155a38f8bfe99f3bf2c7b1786dfd34924908e37f60
+  sha256: 652761304bc78880819aa44c309a6586d133cedf384e2042faab9f669c1c7b70
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools >=64
     - setuptools-scm >=8
     - pip
-    
+
   run:
     - python >={{ python_min }}
     - arviz
